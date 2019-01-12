@@ -17,7 +17,7 @@
             <td>
                 <form action="remove-produto.php" method="post">
                     <input type="hidden" name="id" value="<?=$produto['id']?>">
-                    <button class="btn btn-danger">remover</button>
+                    <button class="btn btn-danger botao">remover</button>
                 </form>                    
             </td>
         </tr>

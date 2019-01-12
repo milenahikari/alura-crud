@@ -13,9 +13,7 @@ $categorias = listaCategorias($conexao);
     <form action="adiciona-produto.php" method="post"> <!--Action direciona a pagina-->
         <table class="table">
             <?php include("produto-formulario-base.php");?>
-            <tr>
-                <td><button class="btn btn-primary" type="submit">Cadastrar</button></td>
-            </tr>
         </table>
+        <button class="btn btn-primary botao" type="submit">Cadastrar</button>
     </form>
 <?php include("rodape.php")?>  
